@@ -51,7 +51,7 @@ x_train, y_train =  train_generator[0]
 x_test, y_test = test_generator[0]
 
 print(len(x_train))
-print(len(x_test)
+print(len(x_test))
 
 
 
