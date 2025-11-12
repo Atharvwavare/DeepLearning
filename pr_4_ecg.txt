@@ -157,3 +157,23 @@ print(classification_report(anomalies, anomalies))
 
 
 
+
+# optional :might contains errors
+# plot histogram to show reconstruction error
+import matplotlib.pyplot as plt
+
+# Plot histogram of reconstruction errors
+plt.figure(figsize=(8,5))
+plt.hist(mse, bins=50, color='skyblue', edgecolor='black')
+plt.xlabel("Reconstruction Error")
+plt.ylabel("Number of Samples")
+plt.title("Histogram of Reconstruction Errors")
+plt.show()
+
+
+
+
+
+
+
+
